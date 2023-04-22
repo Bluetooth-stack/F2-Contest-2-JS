@@ -6,7 +6,7 @@ Build on top simple of HTML CSS & JS.
 
 It has some basic functionalities such as - 
 * it has a dropdown list from where user can select the profession according to which he/she want to filter the list
-* if dropdown is set to default(i.e,Profession), and filter button is clicked, the whole list will be rendered 
+* if no profession is selected from the dropdown and filter button is clicked, an alert will ask the user to select a profession before clicking the button. 
 * 1st letter of name and profession will be always in upper case regardless of the user inputs
 * age should always be in between 18 and 60
 * if any new profession other than "developer" or "admin" is introduced by user, it will be updated on the dropdown list options for filtering purpose

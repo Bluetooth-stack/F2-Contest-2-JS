@@ -9,6 +9,7 @@ It has some basic functionalities such as -
 * if no profession is selected from the dropdown and filter button is clicked, an alert will ask the user to select a profession before clicking the button. 
 * 1st letter of name and profession will be always in upper case regardless of the user inputs
 * age should always be in between 18 and 60
+* no alphabets can be added to the age input field, if the value in input field includes alphabets or out of the defined range, alert message will ask the user for         vallid inputs
 * if any new profession other than "developer" or "admin" is introduced by user, it will be updated on the dropdown list options for filtering purpose
 * input fields can't be empty
 * if everything is fine and adduser button is clicked then the information provided by the user will be updated and rendered on the list and all input value should be     updated to be empty.

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+<!-- fevicon -->
+   <link rel="shortcut icon" href="./add-friend.png" type="image/x-icon"> 
+<!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+<!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- heading -->
+    <h1>Filter UI cards via Profession</h1>
+
+    <!-- dropdown -->
+    <div class="selection">
+        <select name="profession" id="filter_profession">
+            <option style="background: #65676d;color:#ffffff; width: 100%;" value="">Profession</option>
+            <option style="background: #65676d;color:#ffffff; width: 100%;" value="Developer">Developer</option>
+            <option style="background: #65676d;color:#ffffff; width: 100%;" value="Admin">Admin</option>
+        </select>
+    </div>
+
+    <!-- container to add/update list dynamically  -->
+    <div class="container">
+    </div>
+
+    <!-- filter button to filter according to selected dropdown and update over container -->
+    <button id="filter-btn">Filter</button>
+
+    <!-- adding new user -->
+    <h2>Add a New User</h2>
+
+    <!-- to take user info -->
+    <div class="inputs">
+        <div>
+            <label for="name">Enter Name</label><br>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="profession">Enter Profession</label><br>
+            <input type="text" name="profession" id="profession">
+        </div>
+        <div>
+            <label for="age">Enter Age</label><br>
+            <input type="text" name="age" id="age">
+        </div>
+    </div>
+
+    <!-- button to add user -->
+    <button id="add-user">Add User</button>
+
+    <!-- link javascript -->
+    <script src="./app.js"></script>
+</body>
+</html>

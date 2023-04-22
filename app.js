@@ -76,7 +76,8 @@ filter.addEventListener('click', ()=>{
         update(filtered);
     }
     else if(selected===''){
-        update(array);
+       alert("Please select a profession from the dropdown list to filter the list!!!")
+       return;
     }
 })
 
@@ -137,6 +138,9 @@ add.addEventListener('click', ()=>{
     profession.value ='';
     age.value = '';
     
+    // alert message
+    alert("User has been added!")
+
     //update and render the new list
     update(array);
 })
